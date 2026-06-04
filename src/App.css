@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  overflow-x:hidden;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#0b0b0b;
+  color:white;
+}
+
+section{
+  width:100%;
+}
+
+h1,h2,h3{
+  font-family:'Playfair Display',serif;
+}
+
+.gold{
+  color:#D4AF37;
+}
+
+.btn{
+  background:#D4AF37;
+  color:black;
+  border:none;
+  padding:14px 28px;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:translateY(-4px);
+}
+.about,
+.menu,
+.chefs,
+.cuisine,
+.gallery,
+.reviews,
+.reservation,
+.footer{
+  background:#0b0b0b;
+  color:white;
+}
+
+section{
+  position:relative;
+  z-index:1;
+}
+.dark{
+  background:#0b0b0b;
+  color:white;
+}
+
+.light{
+  background:#f7f5ef;
+  color:#111;
+}
+
+.light .navbar{
+  background:rgba(255,255,255,.8);
+}
+
+.light .food-card,
+.light .chef-card,
+.light .cuisine-card,
+.light .review-card,
+.light .stat-card{
+  background:white;
+  color:black;
+}

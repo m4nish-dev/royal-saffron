@@ -1,0 +1,150 @@
+.reservation{
+    padding:120px 8%;
+    text-align:center;
+    background:#080808;
+}
+
+.reservation .gold{
+    color:#D4AF37;
+    letter-spacing:3px;
+    font-weight:600;
+}
+
+.reservation h2{
+    font-size:64px;
+    margin:15px 0 50px;
+}
+
+.reservation form{
+    max-width:750px;
+    margin:auto;
+
+    background:rgba(255,255,255,.03);
+    backdrop-filter:blur(20px);
+
+    padding:40px;
+    border-radius:24px;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.4),
+    0 0 40px rgba(212,175,55,.08);
+}
+
+.reservation input,
+.reservation textarea{
+    width:100%;
+    margin-bottom:18px;
+
+    padding:18px 20px;
+
+    background:#111;
+    color:white;
+
+    border:1px solid #222;
+    border-radius:14px;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+.reservation textarea{
+    height:150px;
+    resize:none;
+}
+
+.reservation input:focus,
+.reservation textarea:focus{
+    outline:none;
+    border-color:#D4AF37;
+
+    box-shadow:
+    0 0 0 3px rgba(212,175,55,.12),
+    0 0 20px rgba(212,175,55,.2);
+}
+
+.reservation .btn{
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+    border-radius:14px;
+
+    background:#D4AF37;
+    color:black;
+
+    font-weight:700;
+    font-size:17px;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.reservation .btn:hover{
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 10px 30px rgba(212,175,55,.35);
+}
+
+@media(max-width:768px){
+
+    .reservation h2{
+        font-size:42px;
+    }
+
+    .reservation form{
+        padding:25px;
+    }
+}
+.success-message{
+    margin-top:20px;
+    color:#D4AF37;
+    font-weight:600;
+    font-size:18px;
+    animation:fadeIn .5s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+} 
+.reservation-subtitle{
+  color:#cfcfcf;
+  margin-bottom:40px;
+}
+
+.success-message{
+  margin-top:30px;
+
+  background:#111;
+
+  border:1px solid #D4AF37;
+
+  padding:25px;
+
+  border-radius:12px;
+
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.success-message h3{
+  color:#D4AF37;
+  margin-bottom:10px;
+}
+
+.success-message p{
+  color:#cfcfcf;
+}
